@@ -1,5 +1,6 @@
 def capitalise_string (string):
-    print(string)
-    return string 
+    print(string.upper())
+    return string.upper() 
+
 capitalise_string('eggs')
 
