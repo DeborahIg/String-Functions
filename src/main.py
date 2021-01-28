@@ -16,3 +16,9 @@ def cap_first(string):
     return string.capitalize() 
 
 cap_first('eggs')
+
+def reverse_cap_string(string):
+    print(string[::-1])
+    return string[::-1]
+
+reverse_cap_string('eggs')

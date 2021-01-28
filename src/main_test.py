@@ -23,3 +23,10 @@ def test_cap_string ():
     assert main.cap_first('ha8$') == 'Ha8$'
     assert main.cap_first ('8a') == '8a'
 
+def test_reverse_cap_string ():
+    assert main.reverse_cap_string ('eggs') == 'sgge' 
+    assert main.reverse_cap_string ('bacon') == 'nocab' 
+    assert main.reverse_cap_string ('sausage') == 'egasuas' 
+    assert main.reverse_cap_string ('my milk') == 'klim ym' 
+    assert main.reverse_cap_string ('ha8$') == '$8ah'
+    assert main.reverse_cap_string ('8a') == 'a8'
